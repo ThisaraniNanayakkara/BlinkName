@@ -1,0 +1,120 @@
+# BlinkName
+const int LED =D7;
+
+
+
+void setup() {
+
+ pinMode(LED, OUTPUT);//this code means to output the ligth LED D7 
+}
+
+void loop() {
+    
+    // digitalWrite(LED, HIGH);
+    // delay(1s);
+    // digitalWrite(LED, LOW);
+    // delay(1s);
+    
+    //T
+    digitalWrite(LED, HIGH);// this coDE represents the on mode of the D7 LED
+    delay(4s);// this represents the longer time duration to depicts the dah in morse code
+    digitalWrite(LED, LOW);// this coDE represents the OFF mode of the D7 LED
+    delay(500);//this shows shorter time duration.
+    
+    //H
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    
+    //I
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    
+    //S
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    
+    //A
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(4s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    
+    //R
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(4s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    
+    //A
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(4s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    
+    //N
+    digitalWrite(LED, HIGH);
+    delay(4s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    
+    //I
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+    digitalWrite(LED, HIGH);
+    delay(1s);
+    digitalWrite(LED, LOW);
+    delay(500);
+
+}
